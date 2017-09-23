@@ -37,6 +37,6 @@ public class NumberSystem {
 	}
 	
 	String transform(String s, int radixSrc, int radixTgt) {
-		return s;
+		return null;
 	}
 }
