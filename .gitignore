@@ -3,3 +3,6 @@
 /.project
 /build/
 /bin/
+/.idea/
+/out/
+/*.iml

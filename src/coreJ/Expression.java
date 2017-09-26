@@ -1,5 +1,9 @@
 package coreJ;
 
+import jdk.nashorn.internal.parser.TokenStream;
+
+import java.io.BufferedInputStream;
+
 public class Expression {
     public TokenStream ts;
 
