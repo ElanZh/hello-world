@@ -48,6 +48,7 @@ public class J8Lambda {
      * 这样做可以检查它是否是一个函数式接口，
      * 同时 javadoc 也会包含一条声明，说明这个接口是一个函数式接口。
      * 为了更好的支持λ语法，Java8 内置了四大核心函数式接口：
+     * java.util.function.*
      * Consumer<T> 消费型接口
      * Supplier<T> 供给型接口
      * Function<T, R> 函数型接口
@@ -115,13 +116,11 @@ public class J8Lambda {
     //需求：将满足条件的字符串，放入集合中
     public List<String> filterStr(List<String> list, Predicate<String> pre){
         List<String> strList = new ArrayList<>();
-
         for (String str : list) {
             if(pre.test(str)){
                 strList.add(str);
             }
         }
-
         return strList;
     }
 }
