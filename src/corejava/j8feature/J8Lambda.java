@@ -9,6 +9,7 @@ import java.util.function.*;
  * @author 张一然
  * @date 2017/12/5 10:02
  * @Package corejava.j8feature
+ * @see java.util.function
  * @Description:
  * Java8中引入了一个新的操作符 "->" 该操作符称为箭头操作符或 Lambda 操作符
  * 箭头操作符将 Lambda 表达式拆分成两部分：
